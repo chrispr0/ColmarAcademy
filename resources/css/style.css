@@ -1,5 +1,79 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: rgb(243, 245, 245);
+}
+
+.main-content {
+  position: relative;
+  top: 4rem; /* To offset for fixed header. */
+}
+
+.navcontent {
+  max-width: 1024px;
+  margin: 0 auto;
+
+}
+
+.content {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 32px 0px 32px 24px;
+  background-color: lightgreen;
+  border: 1pt dashed black;
+}
+
+.flex-container {
+  width: 100%;
+  display: flex;
+}
+
+.center {
+  text-align: center;
+}
+
+.image-container {
+  overflow: hidden;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+}
+
+/*  Header Section  */
+
+header {
+  position: fixed;
+  background-color: lightblue;
+  width: 100%;
+  z-index: 10;
+  height: 64px;
+}
 
 
-h1 {
-  color: red;
+/* Banner Section*/
+
+#banner .image-container {
+  max-width: 60%;
+}
+
+/* Thesis Section*/
+
+.video-container {
+  max-width: 60%;
+}
+
+.video-container video {
+  width: 100%;
+  height: auto;
+}
+
+
+/*  Footer Section  */
+footer {
+  background-color: lightblue;
+  height: 64px;
 }
